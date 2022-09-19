@@ -12,7 +12,7 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
     /* Only make changes below this comment */
-    
+    return arr;
     
     /* Only make changes below this comment */
 }
