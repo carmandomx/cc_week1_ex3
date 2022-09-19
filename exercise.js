@@ -8,18 +8,13 @@
 
 */
 
-
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
     /* Only make changes below this comment */
-    
-    
+    return arr.filter((el) => el && true); // short circuit values, if positive they shall pass
+
     /* Only make changes below this comment */
-}
-
-
-
-
+};
 
 /** DO NOT CHANGE THE LINE BELOW **/
 module.exports.youShallNotPass = youShallNotPass;
