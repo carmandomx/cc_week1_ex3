@@ -12,7 +12,8 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
     /* Only make changes below this comment */
-    
+    let Filter = arr.filter(Boolean);
+    return Filter;
     
     /* Only make changes below this comment */
 }
