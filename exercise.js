@@ -12,13 +12,15 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
     /* Only make changes below this comment */
-    
-    
+
+    // Declaring an array that will store truthy values by filtering (gets rid of falsy values)
+    const truthyArr = arr.filter(function(value) { 
+        return value; // only returns truthy values, equivalent to using boolean
+    });
+
+    return truthyArr;
     /* Only make changes below this comment */
 }
-
-
-
 
 
 /** DO NOT CHANGE THE LINE BELOW **/
