@@ -12,8 +12,25 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
     /* Only make changes below this comment */
-    
-    
+
+    /*We create a new array that will have the cleaned array received
+    And a especific index for that new array*/
+    let clean = [];
+    let cleandex = 0;
+
+    /*As every 'falsy' value is considered as false, we start the process
+    of cleaning the original array by asking if the valua a 'index' position
+    is true, if it´s true, we save it in the cleaned array, if not, we go to the next position*/
+    for (let index = 0; index < arr.length; index++) {
+        if(arr[index]){
+            clean[cleandex] = arr[index];
+            cleandex++;
+        }
+    } 
+
+    //Now we just return the cleaned array
+    return clean
+
     /* Only make changes below this comment */
 }
 
