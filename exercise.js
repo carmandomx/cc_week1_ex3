@@ -12,12 +12,28 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
     /* Only make changes below this comment */
-    
-    
-    /* Only make changes below this comment */
+
+    var falsy;
+    var trueArr = [];
+
+    for (i = 0; i < arr.length; i++) {
+
+        falsy = Boolean(arr[i]);
+
+        if (falsy === true) {
+
+            trueArr.push(arr[i]);
+
+        }
+
+    }
+
+    return trueArr;
+
 }
 
-
+youShallNotPass([7, "ate", "", false, 9]);
+// returns a new array that is filtered accordingly.
 
 
 
