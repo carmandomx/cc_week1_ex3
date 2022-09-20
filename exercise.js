@@ -12,12 +12,27 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
     /* Only make changes below this comment */
-    
-    
+
+    //We establish a bool var to make a separation of what falsy value is and what not
+    //we go through the array with a for cicle and when a value is valid, it is stored
+    //in a newArray, at the final we return that
+
+    let falsy;
+    let newArray = [];
+    for(var i=0;i< arr.length; i++ ){
+
+        falsy = Boolean(arr[i]);
+        if(falsy == true){
+            newArray.push(arr[i]);
+        }
+
+    }
+    console.log(newArray);
+    return newArray;
     /* Only make changes below this comment */
 }
 
-
+youShallNotPass([]);
 
 
 
