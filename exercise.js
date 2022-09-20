@@ -31,7 +31,7 @@ const youShallNotPass = (arr) => {
     /* Only make changes below this comment */
 }
 
-youShallNotPass([]);
+
 
 
 
