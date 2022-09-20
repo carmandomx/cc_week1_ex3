@@ -12,13 +12,16 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
     /* Only make changes below this comment */
-    return arr;
+    var r = [];  //create an empty array to store the result
+    for(let i=0; i<arr.length; i++) { //for loop to iterate through the array
+        if (arr[i]) { //falsy elements are not true, so we push all the true elements to the new array
+            r.push(arr[i]);
+        }
+    }
+    return r; //return the new array
     
     /* Only make changes below this comment */
 }
-
-
-
 
 
 /** DO NOT CHANGE THE LINE BELOW **/
