@@ -20,7 +20,8 @@ const youShallNotPass = (arr) => {
 
     /*As every 'falsy' value is considered as false, we start the process
     of cleaning the original array by asking if the valua a 'index' position
-    is true, if it´s true, we save it in the cleaned array, if not, we go to the next position*/
+    is true, if it´s true, we save it in the cleaned array, if not, we go
+    to the next position and continue*/
     for (let index = 0; index < arr.length; index++) {
         if(arr[index]){
             clean[cleandex] = arr[index];
