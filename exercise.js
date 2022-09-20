@@ -8,18 +8,15 @@
 
 */
 
-
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
-    /* Only make changes below this comment */
-    
-    
-    /* Only make changes below this comment */
-}
+  /* Only make changes below this comment */
 
+  /* filter method with Boolean constructor as a condition that will allow the pass to all values that are true and won't let pass any falsys >:D */
+  return arr.filter(Boolean);
 
-
-
+  /* Only make changes below this comment */
+};
 
 /** DO NOT CHANGE THE LINE BELOW **/
 module.exports.youShallNotPass = youShallNotPass;
