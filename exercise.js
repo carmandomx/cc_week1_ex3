@@ -16,7 +16,7 @@ const youShallNotPass = (arr) => {
     
     /* Only make changes below this comment */
 
-    //Javascript have a method called 'filter()' which method creates a new array filled with elements that pass a test provided by a function
+    //Javascript has a method called 'filter()' which method creates a new array filled with elements that pass a test provided by a function
     //In this case I put boolean to filter the falsy values from the given array and return the array with the remaining values.
 
     return arr.filter(Boolean);
