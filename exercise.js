@@ -12,7 +12,8 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
     /* Only make changes below this comment */
-    
+    falsyArray = arr.filter(Boolean); /* using the filter after making the values boolean, knowing that empty values are always false*/
+    return falsyArray; /* printing the result */
     
     /* Only make changes below this comment */
 }
