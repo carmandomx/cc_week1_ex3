@@ -12,12 +12,18 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
     /* Only make changes below this comment */
-    
-    
+   
     /* Only make changes below this comment */
-}
-
-
+    let newArr = [];
+    arr.forEach((k) => {
+      if (k) {
+        newArr.push(k);
+      }
+    });
+    return newArr;
+  }
+  let arr = [0, 0, 22, 16, 17, null, "itk", false, NaN, 22, "de-hi-games", undefined, ""];
+  console.log(youShallNotPass(arr));
 
 
 
