@@ -12,12 +12,19 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
     /* Only make changes below this comment */
+    var finalArr = []; //FinalArr will storage a new array with not falsy value
+
+    for(var i = 0; i < arr.length; i++){
+        //if the condintion is true the variable is not a FALSY VALUE.
+        if (arr[i]) {
+            finalArr.push(arr[i]); //With push we are adding values to finalArr
+        }
+    }
     
+    return finalArr; //We return finalArrr without falsy values
     
     /* Only make changes below this comment */
 }
-
-
 
 
 
