@@ -12,24 +12,17 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
     /* Only make changes below this comment */
+    // Answer array
     let remainingValues=[];
     let arrSize = arr.length;
-    let remainingValue;
-    console.log(arrSize);
-    if(arr.length==0){
-        remainingValues=arr.slice();
-    }else{
-        for(let i=0;i<arrSize;i++){
-
-            
+    // console.log(arrSize);
+    // Search for truthy items inside the array 
+     for(let i=0;i<arrSize;i++){ 
             if(Boolean(arr[i])){
+                // Pushing truthy items in a different array
                 remainingValues.push(arr[i]);
             }
-        }
-        
-    }
-    
-    console.log("hola "+ remainingValues);
+    }  
     return remainingValues;
 
     
