@@ -12,7 +12,7 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
     /* Only make changes below this comment */
-    
+    return arr.filter(Boolean)
     
     /* Only make changes below this comment */
 }
