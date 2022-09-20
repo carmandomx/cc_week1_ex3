@@ -26,8 +26,7 @@ const youShallNotPass = (arr) => {
             newArray.push(arr[i]);
         }
 
-    }
-    console.log(newArray);
+    }   
     return newArray;
     /* Only make changes below this comment */
 }
