@@ -12,7 +12,14 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
     /* Only make changes below this comment */
-    
+    let arrayresult = []          //first we make an empty array
+   arr.forEach((element) => {     //foreach where element is  
+    console.log(element)          //each one of the elements of the array 
+    if(element){                  // if condition 
+        arrayresult.push(element) //  if element is not falsy
+        }
+    })
+     return arrayresult;
     
     /* Only make changes below this comment */
 }
