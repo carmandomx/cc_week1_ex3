@@ -13,16 +13,17 @@
 const youShallNotPass = (arr) => {
     /* Only make changes below this comment */
 
-    let nElements= [];
+    let nElements= []; //First I declare an array nElements, which will be the array in which I will add the elements that are not falsy.
     
-    for (let index = 0; index < arr.length; index++){
+    for (let index = 0; index < arr.length; index++){ //Then, I create a for loop to loop through each element within the given array.
         
-        if(arr[index]){
-            nElements.push(arr[index]);
+        if(arr[index]){ //I start to validate if each element is not falsy.
+
+            nElements.push(arr[index]); //I add the elements that are not falsy to a new array.
         }
     }
     
-    return(nElements);
+    return(nElements); //Return the new array without falsy elements.
 
     /* Only make changes below this comment */
 }
