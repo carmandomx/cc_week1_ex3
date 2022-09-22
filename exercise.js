@@ -13,14 +13,14 @@ const youShallNotPass = (arr) => {
   /* Only make changes below this comment */
 
   //We created a new array when we collect all new elements.
-  let arrFilter = [];
+  let arrFilter = Array();
   //first evaluation, if "arr" not exist we send a warning or a second evaluation, for cases when arr is not a Array element we return a warning.
   if (!arr || !Array.isArray(arr)) {
-    return console.warn("Please input a array");
+    return "Please input a array";
   } else {
     //if all it's ok, we do a loop for evaluate each elemen for array.
     for (let i = 0; i < arr.length; i++) {
-      //if in the array the elemen exist (truthy) push it in our new array "arrFilter"
+      //if in the array the element exist (truthy) push it in our new array "arrFilter"
       if (arr[i]) {
         arrFilter.push(arr[i]);
       }
