@@ -12,8 +12,16 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
     /* Only make changes below this comment */
-    
-    
+    let newArr = [];
+    arr.forEach(value => {
+        if (!!value) {
+            newArr.push(value);
+        }
+    });
+    return newArr
+
+
+
     /* Only make changes below this comment */
 }
 
