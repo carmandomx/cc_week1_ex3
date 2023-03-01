@@ -12,7 +12,15 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
     /* Only make changes below this comment */
-    
+
+    /* 
+    The falsy values are considered false in the Boolean context (false, 0, -0, 0n, '', ``, null, undefind and NaN) 
+    So we need to filter the values of the array using the array method "filter"
+    */
+    const trueArr = arr.filter(Boolean);
+
+    /* Return the new filtered array */
+    return trueArr;
     
     /* Only make changes below this comment */
 }
