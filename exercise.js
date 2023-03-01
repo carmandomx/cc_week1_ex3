@@ -12,8 +12,13 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
     /* Only make changes below this comment */
-    
-    
+    let arr2 = [];
+    for (i=0; i<=arr.length-1; i++){    
+        if (arr[i]){
+            arr2.push(arr[i]);
+        }
+    }
+    return arr2;
     /* Only make changes below this comment */
 }
 
