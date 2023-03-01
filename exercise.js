@@ -8,18 +8,19 @@
 
 */
 
-
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
-    /* Only make changes below this comment */
-    
-    
-    /* Only make changes below this comment */
-}
+  /* Only make changes below this comment */
 
+  // Create new array using the filter method on "arr"
+  // This method returns the elements that meet the callback function, which is (x) => x.
+  //This filters all the falsy values
+  const filteredArr = arr.filter((x) => x);
 
+  return filteredArr;
 
-
+  /* Only make changes below this comment */
+};
 
 /** DO NOT CHANGE THE LINE BELOW **/
 module.exports.youShallNotPass = youShallNotPass;
