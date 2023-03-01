@@ -11,7 +11,16 @@
 
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
+    //false 0 -0 "" null undefined NaN
     /* Only make changes below this comment */
+   var eliminar1=arr.filter(Boolean)
+    
+   return eliminar1
+  
+
+    
+  
+
     
     
     /* Only make changes below this comment */
