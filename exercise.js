@@ -8,18 +8,14 @@
 
 */
 
-
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
-    /* Only make changes below this comment */
-    
-    
-    /* Only make changes below this comment */
-}
-
-
-
-
+  /* Only make changes below this comment */
+  return arr.filter((value) => {
+    return !!value;
+  });
+  /* Only make changes below this comment */
+};
 
 /** DO NOT CHANGE THE LINE BELOW **/
 module.exports.youShallNotPass = youShallNotPass;
