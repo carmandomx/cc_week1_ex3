@@ -12,18 +12,17 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
     /* Only make changes below this comment */
-    let len_arr=arr.length
-    let non_falsey=[]
+    let len_arr=arr.length /* Lenght of the array to loop through the whole array */
+    let non_falsey=[] /* auxiliar value to save only truthy values*/ 
     for (let i=0;i<len_arr;i++){
-        if (arr[i]){
-            non_falsey.push(arr[i])
+        if (arr[i]){ /*IF the element is truthy...*/ 
+            non_falsey.push(arr[i]) /* we put the truthy element into the array*/
         }
     }
     return non_falsey
     /* Only make changes below this comment */
 }
 
-/*youShallNotPass(['ALAN',23,0,'',[1,2],3,null])/
 
 
 
