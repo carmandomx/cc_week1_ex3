@@ -12,12 +12,15 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
     /* Only make changes below this comment */
-    
+    let allowed = arr.filter(Boolean); //This method filters all the elements that gives you a false (boolean)
+    return allowed
     
     /* Only make changes below this comment */
 }
+var arr = [0, 1, 2, "Sergio", null, false, true, NaN, "Dog"]//This array contains falsy elements like:
+//0, null, false, NaN.
 
-
+console.log(youShallNotPass(arr))//The answer will be [ 1, 2, 'Sergio', true, 'Dog' ]//
 
 
 
